@@ -1,0 +1,26 @@
+.s6,
+.s7 {
+    .section-content {
+        p {
+            color: #fff !important;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                &:before {
+                    content: "\f45c";
+                    color: #fff;
+                    width: 18px;
+                    float: left;
+                    margin-left: -15px;
+                    font-weight: 900;
+                    font-family: 'Font Awesome\ 5 Free';
+                    font-size: 5px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

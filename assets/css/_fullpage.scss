@@ -1,0 +1,77 @@
+#fullPage {
+    .section {
+        background-position: center;
+    }
+
+    .s1 {
+        padding-top: 40px;
+    }
+
+    .s2,
+    .s3,
+    .s4,
+    .s5,
+    .s6,
+    .s7 {
+        padding-top: 60px;
+    }
+
+    .s1 {
+        background: url("/assets/images/canovation-section-hero-blank.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .s2,
+    .s3,
+    .s4,
+    .s5 {
+        background-color: #fff !important;
+    }
+
+    .s6,
+    .s7 {
+        background-color: #2c378f !important;
+    }
+
+}
+
+#fp-nav ul li .fp-tooltip.fp-right {
+    right: 20px;
+    right: unset !important;
+    left: 20px;
+}
+
+#fp-nav.fp-right {
+    left: 20px;
+    right: unset !important;
+    right: 17px;
+}
+
+#fp-nav {
+    z-index: 9999 !important;
+
+
+    ul {
+        li {
+            margin-bottom: 25px !important;
+
+            .fp-tooltip {
+                font-family: 'Poppins', sans-serif !important;
+                color: #222222 !important;
+                font-weight: bold;
+                font-size: 16px !important;
+            }
+
+            a {
+                span {
+                    width: 5px !important;
+                    margin: -2px !important;
+                    top: -30% !important;
+                    height: 30px !important;
+                    border-radius: 0 !important;
+                }
+            }
+        }
+    }
+}

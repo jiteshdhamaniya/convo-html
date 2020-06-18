@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Helvetica-Condensed-Black';
+  src: url('../HelveticaCondensedBlack/Helvetica-Condensed-Black.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-Condensed-Black';
+  src: url('../HelveticaCondensedBlack/Helvetica-Condensed-Black.otf') format('opentype'),
+    url('../elveticaCondensedBlack/Helvetica-Condensed-Black.woff') format('woff'), url('../HelveticaCondensedBlack/Helvetica-Condensed-Black.ttf') format('truetype'), url('../HelveticaCondensedBlack/Helvetica-Condensed-Black.svg#Helvetica-Condensed-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

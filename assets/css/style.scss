@@ -1,0 +1,121 @@
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01. Index Page    */
+/*   02. Header Section  */
+
+//---- Import Starts ----//
+
+@import "./fullpage";
+@import "./navbar";
+@import "./firstsection";
+@import "./resealsection";
+@import "./beveragesection";
+@import "./foodsection";
+@import "./cannabis";
+@import "./paint";
+@import "./futuresection";
+@import "./sustain";
+@import "./canovationllcsection";
+@import "./ourteam";
+@import "./responsive";
+@import "./contactus";
+@import "./beverageslide";
+
+//---- Import Ends ----//
+
+// Body Tags and Common Section CSS
+
+
+@media only screen and (min-width: 2500px) {
+  .fp-tableCell{
+    height: 1600px !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#fullPage {
+  .section {
+    .eggShape {
+      .content {
+        text-align: center;
+
+        img {
+          margin-top: 25px;
+          width: unset;
+        }
+
+        .section-title {
+          font-family: "Helvetica-Condensed";
+          color: #fff;
+          font-size: 45px;
+          margin: 0;
+
+          .next-line-word {
+            display: block;
+
+            strong {
+              font-family: "Helvetica-Condensed-Black" !important;
+              font-weight: 800;
+            }
+          }
+        }
+
+        .section-para {
+          color: #fff;
+          font-family: "Helvetica-Condensed";
+          margin: 0;
+
+          .next-line-word {
+            display: block;
+          }
+        }
+      }
+    }
+
+    ul{
+      margin: 0px;
+      padding: 0px;
+
+        &.about-ul{
+          margin: 15px 0px;
+          padding: 0px;
+        } 
+        
+         li{
+           margin: 10px 0px;
+           font-size: 14px;
+           letter-spacing: 0px;
+         }
+    }
+
+    .section-content {
+      margin-top: 20px;
+     
+      h4,
+      p {
+        color: #2c378f;
+      }
+ 
+      h4 {
+        font-family: "Helvetica-Condensed-Black";
+        font-size: 25px;
+        margin: 0 auto;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin: 0 auto;
+        font-size: 14px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+
+    }
+  }
+}

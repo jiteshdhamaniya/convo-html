@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'KeepCalm-Medium';
+  src: url('../KeepCalmMedium/KeepCalm-Medium.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KeepCalm-Medium';
+  src: url('../KeepCalmMedium/KeepCalm-Medium.woff') format('woff'), url('../KeepCalmMedium/KeepCalm-Medium.ttf') format('truetype'), url('../KeepCalmMedium/KeepCalm-Medium.svg#KeepCalm-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
